@@ -23,10 +23,13 @@ WebUI.navigateToUrl('https://cgi-lib.berkeley.edu/ex/fup.html')
 
 WebUI.delay(3)
 
-String filePath = (((System.getProperty('user.dir') + File.separator) + 'testdata') + File.separator) + "Book1.xlsx"
+String filePath = (((System.getProperty('user.dir') + File.separator) + 'testdata') + File.separator) + 'Book1.xlsx'
 
-println filePath
+println(filePath)
 
 WebUI.uploadFile(findTestObject('Page_Sample File Upload Form/Upload File'), filePath)
 
 WebUI.click(findTestObject('Object Repository/Page_Sample File Upload Form/input_submit'))
+
+WebUI.takeScreenshot()
+
