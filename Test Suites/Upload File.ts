@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>Upload File</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>7132954d-6781-48a5-8025-21511c537c32</testSuiteGuid>
+   <testSuiteGuid>7b7fcf64-870c-4366-8bfd-44baeac3c884</testSuiteGuid>
    <testCaseLink>
-      <guid>cba4658f-1e80-4e20-a540-8f931a11a5a1</guid>
+      <guid>acb4728d-3c9b-4721-b671-d4fb0483dc4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/New Test Case</testCaseId>
+      <testCaseId>Test Cases/Upload File</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
