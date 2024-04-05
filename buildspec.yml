@@ -8,7 +8,7 @@ phases:
       - docker pull katalonstudio/katalon:9.3.2
   build:
     commands:
-      - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon:9.3.2 katalon-execute.sh -apiKey=$API_KEY -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/New Test Suite"
+      - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon:9.3.2 katalon-execute.sh -apiKey=$API_KEY -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Test Chrome Extension"
 artifacts:
   files:
     - report/*
