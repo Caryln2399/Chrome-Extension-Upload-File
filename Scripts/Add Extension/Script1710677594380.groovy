@@ -33,7 +33,7 @@ String pathToChromeDriver = '/Applications/Katalon Studio v9.3.app/Contents/Ecli
 
 System.setProperty('webdriver.chrome.driver', pathToChromeDriver)
 
-// This class is used for customizing the Chrome session
+// This class is used for customizing the Chrome session.
 
 ChromeOptions options = new ChromeOptions()
 
